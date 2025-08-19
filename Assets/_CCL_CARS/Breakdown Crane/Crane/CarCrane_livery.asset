@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 945288799, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: CarCrane_livery
+  m_EditorClassIdentifier: 
+  parentType: {fileID: 11400000, guid: 623b428886aa16d40bf77c8a3463304a, type: 2}
+  id: CarCrane
+  NameTranslationJson: '[{"Language":"English","Value":"Breakdown Crane"}]'
+  NameTranslations:
+    Items:
+    - Language: 0
+      Value: Breakdown Crane
+  icon: {fileID: 21300000, guid: ee8ad0d7fd52be940ab3be574a98aff6, type: 3}
+  localizationKey: ccl/livery/CarCrane
+  prefab: {fileID: 1688182864204300644, guid: b18e155fbfad05344bbf1341b48bf43e, type: 3}
+  interiorPrefab: {fileID: 0}
+  explodedInteriorPrefab: {fileID: 0}
+  externalInteractablesPrefab: {fileID: 1312500395324393714, guid: 3e0673aa795fcbc47bdfce5de68b36aa,
+    type: 3}
+  explodedExternalInteractablesPrefab: {fileID: 0}
+  FrontBogie: 10000
+  RearBogie: 10000
+  BufferType: 550
+  HasMUCable: 0
+  UseCustomHosePositions: 0
+  HideHookPlates: 0
+  HideFrontCoupler: 0
+  HideBackCoupler: 0
+  TrainsetLiveries: []
+  LocoSpawnGroups: []
+  _spawnGroupJson: '[]'
+  UnlockableAsWorkTrain: 1
+  UnlockPrice: 25000
+  SummonPrice: 5000
+  CatalogPage: {fileID: 11400000, guid: 66c0790685784014a952ba4480b9b56e, type: 2}
+  buttonRender: 0

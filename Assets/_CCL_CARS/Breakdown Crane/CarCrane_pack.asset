@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 711031822, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: CarCrane_pack
+  m_EditorClassIdentifier: 
+  PackId: BreakdownCrane
+  PackName: Breakdown Crane
+  Author: Cruzer
+  Version: 1.0.0
+  HomePage: 
+  Repository: 
+  Cars:
+  - {fileID: 11400000, guid: 623b428886aa16d40bf77c8a3463304a, type: 2}
+  - {fileID: 11400000, guid: 1cd9a96d157427f4cbdf6fb17164ec3f, type: 2}
+  ExtraModels: []
+  PaintSubstitutions: []
+  ProceduralMaterials: {fileID: 0}
+  ExtraTranslations: {fileID: 11400000, guid: d36dfd00b518aea43b3092653aae77d8, type: 2}
+  AdditionalDependencies: []
+  _buttons: 0
+  ExporterVersion: 3.0.0

@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1615646900, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: CarCraneFlat_catalog
+  m_EditorClassIdentifier: 
+  HeaderColour: {r: 0.38734555, g: 0.433, b: 0.328647, a: 1}
+  PageName: SALVAGE
+  ConsistUnits: 2/2
+  Nickname: '"CRANE FLATCAR"'
+  ProductionYears: 1961-1995
+  Type: 9
+  Role1: 60
+  Role2: 41
+  ShowLoadRatings: 0
+  LoadFlat:
+    Tonnage: 1200
+    Rating: 1
+  LoadIncline:
+    Tonnage: 300
+    Rating: 2
+  LoadInclineWet:
+    Tonnage: 250
+    Rating: 2
+  DiagramLayout: {fileID: 4800344736675339586, guid: a8fba4e53e0c9d6429b705eb0f20904f,
+    type: 3}
+  DiagramExtras:
+    Length: 13800
+    Width: 3180
+    Height: 1950
+    IsThinVehicle: 1
+    HasFrontBumper: 1
+    HasRearBumper: 1
+  TechList:
+    Tech1:
+      Icon: 15
+      Description: vc/techdesc/cargo_compartment/dm1u
+      Type: crane/catalog/techtype/salvage
+    Tech2:
+      Icon: 17
+      Description: vc/techdesc/unit/optional
+      Type: vc/techdesc/unit/optional_score
+    Tech3:
+      Icon: 18
+      Description: vc/techdesc/delivery/on_demand_delivery
+      Type: vc/techdesc/delivery/by_dv_crew
+    Tech4:
+      Icon: 0
+      Description: 
+      Type: 
+    Tech5:
+      Icon: 0
+      Description: 
+      Type: 
+    Tech6:
+      Icon: 0
+      Description: 
+      Type: 
+    Tech7:
+      Icon: 0
+      Description: 
+      Type: 
+  EaseOfOperation:
+    TotalScoreDisplay: 0
+    LearningSimplicity:
+      ScoreType: 0
+      Value: 1
+    BrakeOperation:
+      ScoreType: 2
+      Value: 2
+    WarningSystems:
+      ScoreType: 0
+      Value: 1
+    MisuseTolerance:
+      ScoreType: 2
+      Value: 5
+    RemoteConnectivity:
+      ScoreType: 0
+      Value: 1
+    ControlsLayout:
+      ScoreType: 0
+      Value: 1
+    ItemStorage:
+      ScoreType: 2
+      Value: 4
+    ReversingComfort:
+      ScoreType: 0
+      Value: 1
+    LightingOperation:
+      ScoreType: 0
+      Value: 1
+    SoundComfort:
+      ScoreType: 0
+      Value: 1
+  Maintenance:
+    TotalScoreDisplay: 0
+    EnergyEconomy:
+      ScoreType: 0
+      Value: 1
+    RepairEconomy:
+      ScoreType: 0
+      Value: 1
+    SanderAdjustability:
+      ScoreType: 0
+      Value: 1
+    WheelsLifetime:
+      ScoreType: 0
+      Value: 1
+    PowertrainLifetime:
+      ScoreType: 0
+      Value: 1
+    CollisionToughness:
+      ScoreType: 0
+      Value: 1
+  Hauling:
+    TotalScoreDisplay: 0
+    LoadRating:
+      ScoreType: 0
+      Value: 1
+    TopSpeed:
+      ScoreType: 0
+      Value: 1
+    AdhesionControl:
+      ScoreType: 0
+      Value: 1
+    HeatManagement:
+      ScoreType: 0
+      Value: 1
+    Range:
+      ScoreType: 0
+      Value: 1
+    CruiseDrivingEase:
+      ScoreType: 0
+      Value: 1
+    HillclimbDrivingEase:
+      ScoreType: 0
+      Value: 1
+    DynamicBraking:
+      ScoreType: 0
+      Value: 1
+  Shunting:
+    TotalScoreDisplay: 0
+    Visibility:
+      ScoreType: 0
+      Value: 1
+    Responsiveness:
+      ScoreType: 0
+      Value: 1
+    ShuntAcceleration:
+      ScoreType: 0
+      Value: 1
+    AccelerationDrivingEase:
+      ScoreType: 0
+      Value: 1
+    SoloBraking:
+      ScoreType: 0
+      Value: 1
+    CompressorStrength:
+      ScoreType: 0
+      Value: 1
+    Compactness:
+      ScoreType: 0
+      Value: 1
+    OutsideAccess:
+      ScoreType: 0
+      Value: 1
+  _loadJson: '{"Rating":"Medium","Tonnage":1200}'
+  _loadInclineJson: '{"Rating":"Bad","Tonnage":300}'
+  _loadInclineWetJson: '{"Rating":"Bad","Tonnage":250}'
+  _diagramJson: '{"HasFrontBumper":true,"HasRearBumper":true,"Height":1950,"IsThinVehicle":true,"Length":13800,"Width":3180}'
+  _techJson: '{"Tech1":{"Description":"vc/techdesc/cargo_compartment/dm1u","Icon":"SpecializedEquipment","Type":"crane/catalog/techtype/salvage"},"Tech2":{"Description":"vc/techdesc/unit/optional","Icon":"UnitEffect","Type":"vc/techdesc/unit/optional_score"},"Tech3":{"Description":"vc/techdesc/delivery/on_demand_delivery","Icon":"CrewDelivery","Type":"vc/techdesc/delivery/by_dv_crew"},"Tech4":{"Description":"","Icon":"None","Type":""},"Tech5":{"Description":"","Icon":"None","Type":""},"Tech6":{"Description":"","Icon":"None","Type":""},"Tech7":{"Description":"","Icon":"None","Type":""}}'
+  _easeScore: '{"BrakeOperation":{"ScoreType":"Score","Value":2},"ControlsLayout":{"ScoreType":"None","Value":1},"ItemStorage":{"ScoreType":"Score","Value":4},"LearningSimplicity":{"ScoreType":"None","Value":1},"LightingOperation":{"ScoreType":"None","Value":1},"MisuseTolerance":{"ScoreType":"Score","Value":5},"RemoteConnectivity":{"ScoreType":"None","Value":1},"ReversingComfort":{"ScoreType":"None","Value":1},"SoundComfort":{"ScoreType":"None","Value":1},"TotalScoreDisplay":"None","WarningSystems":{"ScoreType":"None","Value":1}}'
+  _maintScore: '{"CollisionToughness":{"ScoreType":"None","Value":1},"EnergyEconomy":{"ScoreType":"None","Value":1},"PowertrainLifetime":{"ScoreType":"None","Value":1},"RepairEconomy":{"ScoreType":"None","Value":1},"SanderAdjustability":{"ScoreType":"None","Value":1},"TotalScoreDisplay":"None","WheelsLifetime":{"ScoreType":"None","Value":1}}'
+  _haulScore: '{"AdhesionControl":{"ScoreType":"None","Value":1},"CruiseDrivingEase":{"ScoreType":"None","Value":1},"DynamicBraking":{"ScoreType":"None","Value":1},"HeatManagement":{"ScoreType":"None","Value":1},"HillclimbDrivingEase":{"ScoreType":"None","Value":1},"LoadRating":{"ScoreType":"None","Value":1},"Range":{"ScoreType":"None","Value":1},"TopSpeed":{"ScoreType":"None","Value":1},"TotalScoreDisplay":"None"}'
+  _shuntScore: '{"AccelerationDrivingEase":{"ScoreType":"None","Value":1},"Compactness":{"ScoreType":"None","Value":1},"CompressorStrength":{"ScoreType":"None","Value":1},"OutsideAccess":{"ScoreType":"None","Value":1},"Responsiveness":{"ScoreType":"None","Value":1},"ShuntAcceleration":{"ScoreType":"None","Value":1},"SoloBraking":{"ScoreType":"None","Value":1},"TotalScoreDisplay":"None","Visibility":{"ScoreType":"None","Value":1}}'
