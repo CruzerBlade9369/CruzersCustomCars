@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: CarCraneFlat_livery
   m_EditorClassIdentifier: 
   parentType: {fileID: 11400000, guid: 1cd9a96d157427f4cbdf6fb17164ec3f, type: 2}
-  id: CarCraneFlat
+  id: CraneFlat
   NameTranslationJson: '[{"Language":"English","Value":"Breakdown Flatcar"}]'
   NameTranslations:
     Items:
     - Language: 0
       Value: Breakdown Flatcar
   icon: {fileID: 21300000, guid: ca44d00125b59c24abb4c7ff0172de04, type: 3}
-  localizationKey: ccl/livery/CarCraneFlat
+  localizationKey: ccl/livery/CraneFlat
   prefab: {fileID: 1688182864204300644, guid: 7b2ceb3623bfc21429f780f776c84b2c, type: 3}
   interiorPrefab: {fileID: 0}
   explodedInteriorPrefab: {fileID: 0}
@@ -35,10 +35,15 @@ MonoBehaviour:
   HideHookPlates: 0
   HideFrontCoupler: 0
   HideBackCoupler: 0
-  TrainsetLiveries: []
-  LocoSpawnGroups: []
-  _spawnGroupJson: '[]'
-  UnlockableAsWorkTrain: 1
+  TrainsetLiveries:
+  - CraneFlat
+  - Crane
+  LocoSpawnGroups:
+  - Track: 1000
+    AdditionalLiveries:
+    - Crane
+  _spawnGroupJson: '[{"AdditionalLiveries":["Crane"],"Track":"HarbourA1"}]'
+  UnlockableAsWorkTrain: 0
   UnlockPrice: 5000
   SummonPrice: 1000
   CatalogPage: {fileID: 11400000, guid: 21b28da31b56465458ec9596fab9062a, type: 2}

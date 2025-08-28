@@ -1,0 +1,10 @@
+<Project>
+	<PropertyGroup>
+		<ReferencePath>
+      D:\Programs\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\;
+      D:\Programs\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\UnityModManager\;
+      D:\Programs\Steam\steamapps\common\Derail Valley\Mods\DVCustomCarLoader;
+    </ReferencePath>
+		<AssemblySearchPaths>$(AssemblySearchPaths);$(ReferencePath);</AssemblySearchPaths>
+	</PropertyGroup>
+</Project>

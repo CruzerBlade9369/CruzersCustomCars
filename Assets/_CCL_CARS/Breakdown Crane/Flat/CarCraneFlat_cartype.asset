@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: CarCraneFlat_cartype
   m_EditorClassIdentifier: 
   KindSelection: 0
-  id: CarCraneFlat
+  id: CraneFlat
   carIdPrefix: '-'
   IsSteamLocomotive: 0
-  localizationKey: ccl/car/CarCraneFlat
+  localizationKey: ccl/car/CraneFlat
   NameTranslations:
     Items:
     - Language: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
   NameTranslationJson: '[{"Language":"English","Value":"Breakdown Flatcar"}]'
   liveries:
   - {fileID: 11400000, guid: 740e0ffdfc07da14fa81e60714bb99da, type: 2}
-  mass: 9750
+  mass: 10200
   bogieSuspensionMultiplier: 1
   rollingResistanceCoefficient: 0.002
   wheelSlidingFrictionCoefficient: 0.13

@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 1615646900, guid: b247489fc36790c41b197410cd8386d9, type: 3}
   m_Name: CarCrane_catalog
   m_EditorClassIdentifier: 
-  HeaderColour: {r: 0.3372549, g: 0.3882353, b: 0.26666668, a: 1}
-  PageName: SALVAGE
+  HeaderColour: {r: 0.4745098, g: 0.5254902, b: 0.40392157, a: 1}
+  PageName:
+    Items:
+    - Language: 0
+      Value: Salvage
   ConsistUnits: 1/2
-  Nickname: '"CRANE"'
+  HasNickname: 1
+  Nickname:
+    Items:
+    - Language: 0
+      Value: '"Crane"'
   ProductionYears: 1961-1995
   Type: 9
   Role1: 60
@@ -34,8 +41,8 @@ MonoBehaviour:
     type: 3}
   DiagramExtras:
     Length: 21600
-    Width: 2960
-    Height: 4320
+    Width: 3140
+    Height: 4450
     IsThinVehicle: 0
     HasFrontBumper: 1
     HasRearBumper: 1
@@ -172,10 +179,12 @@ MonoBehaviour:
     OutsideAccess:
       ScoreType: 0
       Value: 1
+  _pageNameJson: '{"Items":[{"Language":"English","Value":"Salvage"}]}'
+  _nicknameJson: '{"Items":[{"Language":"English","Value":""Crane""}]}'
   _loadJson: '{"Rating":"Medium","Tonnage":1200}'
   _loadInclineJson: '{"Rating":"Bad","Tonnage":300}'
   _loadInclineWetJson: '{"Rating":"Bad","Tonnage":250}'
-  _diagramJson: '{"HasFrontBumper":true,"HasRearBumper":true,"Height":4320,"IsThinVehicle":false,"Length":21600,"Width":2960}'
+  _diagramJson: '{"HasFrontBumper":true,"HasRearBumper":true,"Height":4450,"IsThinVehicle":false,"Length":21600,"Width":3140}'
   _techJson: '{"Tech1":{"Description":"vc/techdesc/cargo_compartment/dm1u","Icon":"SpecializedEquipment","Type":"crane/catalog/techtype/salvage"},"Tech2":{"Description":"vc/techdesc/unit/optional","Icon":"UnitEffect","Type":"vc/techdesc/unit/optional_score"},"Tech3":{"Description":"vc/techdesc/delivery/on_demand_delivery","Icon":"CrewDelivery","Type":"vc/techdesc/delivery/by_dv_crew"},"Tech4":{"Description":"","Icon":"None","Type":""},"Tech5":{"Description":"","Icon":"None","Type":""},"Tech6":{"Description":"","Icon":"None","Type":""},"Tech7":{"Description":"","Icon":"None","Type":""}}'
   _easeScore: '{"BrakeOperation":{"ScoreType":"Score","Value":2},"ControlsLayout":{"ScoreType":"None","Value":1},"ItemStorage":{"ScoreType":"Score","Value":1},"LearningSimplicity":{"ScoreType":"None","Value":1},"LightingOperation":{"ScoreType":"None","Value":1},"MisuseTolerance":{"ScoreType":"Score","Value":3},"RemoteConnectivity":{"ScoreType":"None","Value":1},"ReversingComfort":{"ScoreType":"None","Value":1},"SoundComfort":{"ScoreType":"None","Value":1},"TotalScoreDisplay":"None","WarningSystems":{"ScoreType":"None","Value":1}}'
   _maintScore: '{"CollisionToughness":{"ScoreType":"None","Value":1},"EnergyEconomy":{"ScoreType":"None","Value":1},"PowertrainLifetime":{"ScoreType":"None","Value":1},"RepairEconomy":{"ScoreType":"None","Value":1},"SanderAdjustability":{"ScoreType":"None","Value":1},"TotalScoreDisplay":"None","WheelsLifetime":{"ScoreType":"None","Value":1}}'

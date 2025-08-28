@@ -17,7 +17,7 @@ MonoBehaviour:
   Author: Cruzer
   Version: 1.0.0
   HomePage: 
-  Repository: 
+  Repository: https://raw.githubusercontent.com/CruzerBlade9369/CruzersCustomCars/main/repository.json
   Cars:
   - {fileID: 11400000, guid: 623b428886aa16d40bf77c8a3463304a, type: 2}
   - {fileID: 11400000, guid: 1cd9a96d157427f4cbdf6fb17164ec3f, type: 2}
@@ -27,4 +27,4 @@ MonoBehaviour:
   ExtraTranslations: {fileID: 11400000, guid: d36dfd00b518aea43b3092653aae77d8, type: 2}
   AdditionalDependencies: []
   _buttons: 0
-  ExporterVersion: 3.0.0
+  ExporterVersion: 3.1.0

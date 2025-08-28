@@ -1,0 +1,16 @@
+{
+	"Id":"BreakdownCrane",
+	"DisplayName":"Breakdown Crane",
+	"Version":"1.0.0",
+	"Author":"Cruzer",
+	"EntryMethod": "BreakdownCrane.Main.Load",
+	"HomePage":"",
+	"Repository":"https://raw.githubusercontent.com/CruzerBlade9369/CruzersCustomCars/main/repository.json",
+	"ManagerVersion":"0.27.3",
+	"Requirements":[
+		"DVCustomCarLoader"
+	],
+	"LoadAfter":[
+		"SkinManagerMod"
+	]
+}

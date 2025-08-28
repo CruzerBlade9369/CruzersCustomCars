@@ -121,6 +121,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &1296944742
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1688182864204300644, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_Name
+      value: CarCraneFlat_template
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: 7b2ceb3623bfc21429f780f776c84b2c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b2ceb3623bfc21429f780f776c84b2c, type: 3}
 --- !u!1001 &1376019903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133,15 +202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CarCrane_interactables
       objectReference: {fileID: 0}
-    - target: {fileID: 6043511418445311441, guid: 3e0673aa795fcbc47bdfce5de68b36aa,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.547
-      objectReference: {fileID: 0}
     - target: {fileID: 7827193555322370895, guid: 3e0673aa795fcbc47bdfce5de68b36aa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7827193555322370895, guid: 3e0673aa795fcbc47bdfce5de68b36aa,
         type: 3}
@@ -274,7 +338,7 @@ PrefabInstance:
     - target: {fileID: 3806938368468249216, guid: 17190ef9e8e8b6547803bf69c0a28252,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3806938368468249216, guid: 17190ef9e8e8b6547803bf69c0a28252,
         type: 3}
