@@ -15,15 +15,6 @@ namespace BreakdownCrane
         {
             static void Postfix(CommsRadioController __instance)
             {
-                if (Main.settings.noFunction)
-                {
-                    if (!__instance.IsModeActivated<RerailController>())
-                    {
-                        __instance.ActivateMode<RerailController>();
-                    }
-                    return;
-                }
-
                 ItemBase itemBase = __instance.GetComponent<ItemBase>();
                 if (itemBase == null)
                 {
@@ -37,6 +28,15 @@ namespace BreakdownCrane
 
         private static void CheckRerailAvailability(CommsRadioController radio)
         {
+            if (Main.settings.noFunction)
+            {
+                if (!radio.IsModeActivated<RerailController>())
+                {
+                    radio.ActivateMode<RerailController>();
+                }
+                return;
+            }
+
             if (PlayerManager.PlayerTransform == null || CarSpawner.Instance == null)
             {
                 return;

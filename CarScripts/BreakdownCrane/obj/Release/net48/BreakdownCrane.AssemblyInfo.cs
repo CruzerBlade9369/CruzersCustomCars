@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BreakdownCrane")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3672b2d35174ec268e9d20a14f47f84b6830c87d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81f563b22de972acf61ae9e0a2fe5dec67e678fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("BreakdownCrane")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BreakdownCrane")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

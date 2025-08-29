@@ -129,3 +129,4 @@ D:\My Files\!PORTFOLIO\DV mods dev\CruzersCustomCars\CarScripts\BreakdownCrane\o
 D:\My Files\!PORTFOLIO\DV mods dev\CruzersCustomCars\CarScripts\BreakdownCrane\obj\Release\net48\Breakdow.7B3B7133.Up2Date
 D:\My Files\!PORTFOLIO\DV mods dev\CruzersCustomCars\CarScripts\BreakdownCrane\obj\Release\net48\BreakdownCrane.dll
 D:\My Files\!PORTFOLIO\DV mods dev\CruzersCustomCars\CarScripts\BreakdownCrane\obj\Release\net48\BreakdownCrane.pdb
+D:\My Files\!PORTFOLIO\DV mods dev\CruzersCustomCars\CarScripts\BreakdownCrane\obj\Release\net48\BreakdownCrane.sourcelink.json
