@@ -9,6 +9,27 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
+1. Code License (MIT):
+   The source code included in this project is licensed under the terms of
+   the MIT License. The above copyright notice and this permission notice
+   shall be included in all copies or substantial portions of the code.
+
+2. Asset Usage Restriction:
+   Any 3D models, textures, sounds, or other artistic and/or creative assets
+   included in this project (the "Assets") are **not licensed under MIT**.
+   These Assets may only be used, copied, modified, or redistributed for the
+   purposes of modding the game *Derail Valley* ("DV") and must not be used
+   in other games, software, or projects without prior written permission
+   from the copyright holder.
+
+   The Assets may not be used for commercial purposes, standalone distribution,
+   or in any project unrelated to DV modding.
+
+3. Combined Works:
+   If this project is forked, redistributed, or merged into another DV mod,
+   the code remains under MIT, but the restrictions on the Assets remain in
+   effect.
+
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
