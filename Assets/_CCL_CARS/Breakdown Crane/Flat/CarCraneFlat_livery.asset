@@ -38,11 +38,8 @@ MonoBehaviour:
   TrainsetLiveries:
   - CraneFlat
   - Crane
-  LocoSpawnGroups:
-  - Track: 1000
-    AdditionalLiveries:
-    - Crane
-  _spawnGroupJson: '[{"AdditionalLiveries":["Crane"],"Track":"HarbourA1"}]'
+  LocoSpawnGroups: []
+  _spawnGroupJson: '[]'
   UnlockableAsWorkTrain: 0
   UnlockPrice: 5000
   SummonPrice: 1000
