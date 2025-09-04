@@ -44,7 +44,7 @@ namespace BreakdownCrane
         {
             GUILayout.BeginVertical(GUILayout.MinWidth(800), GUILayout.ExpandWidth(false));
 
-            GUILayout.Label("Select location to deliver crane to upon purchase");
+            GUILayout.Label("Select location to deliver the crane to");
 
             GUILayout.BeginHorizontal(GUILayout.Width(350));
             UnityModManager.UI.PopupToggleGroup(ref selectedLocationIndex, deliveryLocations, "Available delivery locations");

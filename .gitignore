@@ -12,6 +12,12 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# Misc project artifacts
+/CarScripts/build/
+/CarScripts/*.targets
+/CarScripts/BreakdownCrane/bin/
+/CarScripts/BreakdownCrane/obj/
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -48,6 +54,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.targets
 
 # Unity3D generated meta files
 *.pidb.meta

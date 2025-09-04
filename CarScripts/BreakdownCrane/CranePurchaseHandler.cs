@@ -42,10 +42,8 @@ namespace BreakdownCrane
                 break;
             }
 
-            if (!Main.settings.autoDeliver)
-            {
-                return;
-            }
+            if (WorkTrainPurchaseHandler.HasBeenSummonedBefore(crane)) return;
+            if (!Main.settings.autoDeliver) return;
 
             if (crane == null || craneFlat == null)
             {
@@ -60,6 +58,8 @@ namespace BreakdownCrane
 
         private static void DeliverCraneAfterPurchase(CCL_CarVariant crane, CCL_CarVariant craneFlat)
         {
+            if (PlayerManager.PlayerTransform == null) return;
+
             Vector3 spawnPos = PlayerManager.PlayerTransform.position;
             List<TrainCarLivery> liveries = [craneFlat, crane];
 
